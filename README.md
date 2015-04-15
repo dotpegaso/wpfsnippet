@@ -7,12 +7,12 @@ Coleção de Snippets e métodos ágeis para melhor produtividade no desenvolvim
 
 - [Baixe](https://github.com/dotpegaso/wpfsnippet/archive/master.zip) o arquivo e entre na pasta *Snippets*
 - Abra o `Visual Studio` e em seu menu superior, navegue até `Resharper > Tools > Templates Explorer`
-- Em `Scopes` selecione `Global` e clique em `Import` e adicione os snippets ao seu Resharper
+- Em `Scopes` selecione `Global` e clique em `Import` e adicione os snippets ao seu **ReSharper**
 
 ![alt tag](http://s18.postimg.org/bf2bzy8op/example.gif)
 
 ### Estrutura básica
-
+------------------
 - O comando **controls:** é equivalente à uma estrutura básica de nova janela, use-o sempre que criar um novo arquivo .xaml:
 ~~~~~xml
 <controls:BdsElysiumWindow
@@ -110,7 +110,8 @@ Para decorar os comandos, lembre-se das iniciais maiúsculas que vão após o in
 ### Propriedades
 ------------------
 Comandos para adicionar propriedades em uma marcação.
-Exemplo: *<Label row+TAB />* se transforma em *<Label Grid.Row="0"/>*
+
+Exemplo: `<Label row+TAB />` se transforma em `<Label Grid.Row="0"/>`
 
 **col** > `Grid.Column="0"`
 
