@@ -1,13 +1,13 @@
 # wpfSnippet
-
+-----------------------------------
 Coleção de Snippets e métodos ágeis para melhor produtividade no desenvolvimento em Windows Presentation Foundation, através de Visual Studio + ReSharper
 
 ### Getting started
------------------------------------
+------------------
 
-- [Baixe](https://github.com/dotpegaso/wpfsnippet/archive/master.zip) o arquivo e entre na pasta Snippets
+- [Baixe](https://github.com/dotpegaso/wpfsnippet/archive/master.zip) o arquivo e entre na pasta *Snippets*
 - Abra o `Visual Studio` e em seu menu superior, navegue até `Resharper > Tools > Templates Explorer`
-- Em `Scopes` selecione `Global` e clique em `Import`
+- Em `Scopes` selecione `Global` e clique em `Import` e adicione os snippets ao seu Resharper
 
 ![alt tag](http://s18.postimg.org/bf2bzy8op/example.gif)
 
@@ -51,7 +51,7 @@ Title="{x:Static resources:Resource.**[NOME_DA_TELA]**_TitleBar}">
 ~~~~~
 
 ### Estrutura de Grids
------------------------------------
+------------------
 Os comandos abaixo faciltam a construção de markdown para criação de grids e suas propriedades.
 Para decorar os comandos, lembre-se das iniciais maiúsculas que vão após o início da marcação.
 
@@ -108,7 +108,7 @@ Para decorar os comandos, lembre-se das iniciais maiúsculas que vão após o in
 ```
 
 ### Propriedades
------------------------------------
+------------------
 Comandos para adicionar propriedades em uma marcação.
 Exemplo: *<Label row+TAB />* se transforma em *<Label Grid.Row="0"/>*
 
@@ -121,10 +121,10 @@ Exemplo: *<Label row+TAB />* se transforma em *<Label Grid.Row="0"/>*
 **colrow** > `Grid.Column="0" Grid.Row="0"`
 
 ### Múltiplos
------------------------------------
+------------------
 Você também pode criar múltiplos `<Grid.ColumnDefinitions>` e  `<Grid.RowDefinitions>`
 
-- Para múltiplas colunas:
+*Para múltiplas colunas:*
 
 **2cold**
 ```
@@ -156,7 +156,7 @@ Você também pode criar múltiplos `<Grid.ColumnDefinitions>` e  `<Grid.RowDefi
 <ColumnDefinition Width="0" />
 ```
 
-- Para múltiplas linhas:
+*Para múltiplas linhas:*
 
 **2rowd**
 ```
