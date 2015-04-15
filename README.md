@@ -7,7 +7,7 @@ Coleção de Snippets e métodos ágeis para melhor produtividade no desenvolvim
 
 - [Baixe](https://github.com/dotpegaso/wpfsnippet/archive/master.zip) o arquivo e entre na pasta *Snippets*
 - Abra o `Visual Studio` e em seu menu superior, navegue até `Resharper > Tools > Templates Explorer`
-- Em `Scopes` selecione `Global` e clique em `Import` e adicione os snippets ao seu **ReSharper**
+- Em `Scopes` selecione `Global` e clique em `Import` e adicione os snippets ao seu *ReSharper*
 
 ![alt tag](http://s18.postimg.org/bf2bzy8op/example.gif)
 
@@ -109,38 +109,38 @@ Para decorar os comandos, lembre-se das iniciais maiúsculas que vão após o in
 
 ### Elementos
 ------------------
-Comandos para adicionar elementos básicos já preenchidos com linha e coluna
+Comandos para adicionar elementos básicos já preenchidos com linha e coluna, onde *element* pode ser um Button, CheckBox, ComboBox, DatePicker, TimePicker, ListBox, PasswordBox, ProgressBar, RadioButton, StackPanel, StatusBar, TabControl, TextBlock, TabItem, TextBox, ToolBar, TreeView ou Label.
 
-Exemplo: `elementr+TAB` se transforma em
+**Exemplo**: `elementr+TAB` se transforma em:
 ```xml
-<Button Grid.Row="0" />
+<Element Grid.Row="0" />
 ```
 
 **elementc**
 ```xml
-<Button Grid.Column="0" />
+<Element Grid.Column="0" />
 ```
 
 **elementr**
 ```xml
-<Button Grid.Row="0" />
+<Element Grid.Row="0" />
 ```
 
 **elementcr**
 ```xml
-<Button Grid.Column="0" Grid.Row="0" />
+<Element Grid.Column="0" Grid.Row="0" />
 ```
 
 **elementrc**
 ```xml
-<Button Grid.Row="0" Grid.Column="0" />
+<Element Grid.Row="0" Grid.Column="0" />
 ```
 
 ### Propriedades
 ------------------
 Comandos para adicionar propriedades em uma marcação.
 
-Exemplo: `<Label row+TAB />` se transforma em:
+**Exemplo**: `<Label row+TAB />` se transforma em:
 ```xml
 <Label Grid.Row="0"/>
 ```
