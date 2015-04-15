@@ -8,11 +8,11 @@ Coleção de Snippets e métodos ágeis para melhor produtividade no desenvolvim
 - Abra o `Visual Studio` e em seu menu superior, navegue até `Resharper > Tools > Templates Explorer`
 - Em `Scopes` selecione `Global` e clique em `Import`
 
-![alt tag](https://github.com/dotpegaso/wpfsnippet/res/example.gif)
+![alt tag](http://s18.postimg.org/bf2bzy8op/example.gif)
 
 ### Estrutura básica
 
-- O comando **controls:** é equivalente à uma estrutura básica de nova janela, use-o sempre que criar um novo arquivo .xaml:
+- O comando **controls:** é equivalente à uma estrutura básica de nova janela, o sempre que criar um novo arquivo .xaml:
 ```
 <controls:BdsElysiumWindow
 x:Class="NAMESPACE.View.**[NOME_DA_TELA]**"
@@ -49,86 +49,92 @@ Title="{x:Static resources:Resource.**[NOME_DA_TELA]**_TitleBar}">
 </controls:BdsElysiumWindow>
 ```
 
-- Use **gridcd** para:
+### Estrutura de Grids
+Os comandos abaixo faciltam a construção de markdown para criação de grids e suas propriedades.
+Para decorar os comandos, lembre-se das iniciais maiúsculas que vão após o início da marcação.
+Exemplo: `<**Grid**.**R**ow**D**efinitions>` => `grid**rd**`
+
+
+- **gridcd** =
 ```
 <Grid.ColumnDefinitions>
-    <ColumnDefinition Width="**VALOR**" />
+    <ColumnDefinition Width="0" />
 </Grid.ColumnDefinitions>
 ```
 
-- Use **cold** para:
+- **cold** =
 ```
-<ColumnDefinition Width="**VALOR**" />
+<ColumnDefinition Width="0" />
 ```
 
-- Use **gridc** para:
+- **gridc** =
 ```
-<Grid Grid.Column="**VALOR**" Margin="5">
+<Grid Grid.Column="0" Margin="5">
 </Grid>
 ```
 
-- Use **gridrd** para:
+- **gridrd** =
 ```
 <Grid.RowDefinitions>
-    <RowDefinition Height="**VALOR**" />
+    <RowDefinition Height="0" />
 </Grid.RowDefinitions>
 ```
 
-- Use **rowd** para:
+- **rowd** =
 ```
-<RowDefinition Height="**VALOR**" />
+<RowDefinition Height="0" />
 ```
 
-- Use **gridr** para:
+- **gridr** =
 ```
-<Grid Grid.Row="**VALOR**" Margin="5">
+<Grid Grid.Row="0" Margin="5">
 </Grid>
 ```
 
-- Use **gridrc** para:
+- **gridrc** =
 ```
-<Grid Grid.Row="**VALOR**" Grid.Column="**VALOR**" Margin="5">
+<Grid Grid.Row="0" Grid.Column="0" Margin="5">
 </Grid>
 ```
 
-- Use **gridcr** para:
+- **gridcr** =
 ```
-<Grid Grid.Column="**VALOR**" Grid.Row="**VALOR**" Margin="5">
+<Grid Grid.Column="0" Grid.Row="0" Margin="5">
 </Grid>
 ```
 
-### Propriedades
+### Propriedades estes comandos para adicionar propriedades em um componente
 
-  - Use **col** para:
-        `Grid.Column="**VALOR**"`
-
-Exemplo
-    
-    `<Label />` > `<Label col+**TAB** /> **=>** `<Label Grid.Column="**VALOR**"/>` 
-
-
-  - Use **row** para:
-        `Grid.Row="**VALOR**"`
+  - **col** =
+        `Grid.Column="0"`
 
 Exemplo
     
-    `<Label />` > `<Label row+**TAB** /> **=>** `<Label Grid.Row="**VALOR**"/>`
+    `<Label />` > `<Label col+**TAB** /> **=>** `<Label Grid.Column="0"/>` 
 
 
-  - Use **rowcol** para:
-        `Grid.Column="**VALOR**"`
-
-Exemplo
-    
-    `<Label />` > `<Label rowcol+**TAB** /> **=>** `<Label Grid.Row="**VALOR**" Grid.Column="**VALOR**"/>`
-
-
-  - Use **colrow** para:
-        `Grid.Column="**VALOR**"`
+  - **row** =
+        `Grid.Row="0"`
 
 Exemplo
     
-    `<Label />` > `<Label colrow+**TAB** /> **=>** `<Label Grid.Column="**VALOR**" Grid.Row="**VALOR**"/>`
+    `<Label />` > `<Label row+**TAB** /> **=>** `<Label Grid.Row="0"/>`
+
+
+  - **rowcol** =
+        `Grid.Column="0"`
+
+Exemplo
+    
+    `<Label />` > `<Label rowcol+**TAB** /> **=>** `<Label Grid.Row="0" Grid.Column="0"/>`
+
+
+  - **colrow** =
+        `Grid.Column="0"`
+
+Exemplo
+    
+    `<Label />` > `<Label colrow+**TAB** /> **=>** `<Label Grid.Column="0" Grid.Row="0"/>`
 
 
 ### Múltiplos
@@ -137,50 +143,50 @@ Você também pode criar múltiplos `<Grid.ColumnDefinitions>` e  `<Grid.RowDefi
 
 Para múltiplas colunas:
 
-- Use **2cold** para:
+- **2cold** para:
   ```
-<ColumnDefinition Width="**VALOR**" />
-<ColumnDefinition Width="**VALOR**" />
+<ColumnDefinition Width="0" />
+<ColumnDefinition Width="0" />
   ```
 
-  - Use **3cold** para:
-        <ColumnDefinition Width="**VALOR**" />
-        <ColumnDefinition Width="**VALOR**" />
-        <ColumnDefinition Width="**VALOR**" />
+  - **3cold** para:
+        <ColumnDefinition Width="0" />
+        <ColumnDefinition Width="0" />
+        <ColumnDefinition Width="0" />
 
-  - Use **4cold** para:
-        <ColumnDefinition Width="**VALOR**" />
-        <ColumnDefinition Width="**VALOR**" />
-        <ColumnDefinition Width="**VALOR**" />
-        <ColumnDefinition Width="**VALOR**" />
+  - **4cold** para:
+        <ColumnDefinition Width="0" />
+        <ColumnDefinition Width="0" />
+        <ColumnDefinition Width="0" />
+        <ColumnDefinition Width="0" />
 
-  - Use **5cold** para:
-        <ColumnDefinition Width="**VALOR**" />
-        <ColumnDefinition Width="**VALOR**" />
-        <ColumnDefinition Width="**VALOR**" />
-        <ColumnDefinition Width="**VALOR**" />
-        <ColumnDefinition Width="**VALOR**" />
+  - **5cold** para:
+        <ColumnDefinition Width="0" />
+        <ColumnDefinition Width="0" />
+        <ColumnDefinition Width="0" />
+        <ColumnDefinition Width="0" />
+        <ColumnDefinition Width="0" />
 
 Para múltiplas linhas:
 
-  - Use **2rowd** para:
-        <RowDefinition Height="**VALOR**" />
-        <RowDefinition Height="**VALOR**" />
+  - **2rowd** para:
+        <RowDefinition Height="0" />
+        <RowDefinition Height="0" />
 
-  - Use **3rowd** para:
-        <RowDefinition Height="**VALOR**" />
-        <RowDefinition Height="**VALOR**" />
-        <RowDefinition Height="**VALOR**" />
+  - **3rowd** para:
+        <RowDefinition Height="0" />
+        <RowDefinition Height="0" />
+        <RowDefinition Height="0" />
 
-  - Use **4rowd** para:
-        <RowDefinition Height="**VALOR**" />
-        <RowDefinition Height="**VALOR**" />
-        <RowDefinition Height="**VALOR**" />
-        <RowDefinition Height="**VALOR**" />
+  - **4rowd** para:
+        <RowDefinition Height="0" />
+        <RowDefinition Height="0" />
+        <RowDefinition Height="0" />
+        <RowDefinition Height="0" />
 
-  - Use **5rowd** para:
-        <RowDefinition Height="**VALOR**" />
-        <RowDefinition Height="**VALOR**" />
-        <RowDefinition Height="**VALOR**" />
-        <RowDefinition Height="**VALOR**" />
-        <RowDefinition Height="**VALOR**" />
+  - **5rowd** para:
+        <RowDefinition Height="0" />
+        <RowDefinition Height="0" />
+        <RowDefinition Height="0" />
+        <RowDefinition Height="0" />
+        <RowDefinition Height="0" />
