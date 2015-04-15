@@ -56,56 +56,56 @@ Os comandos abaixo faciltam a construção de markdown para criação de grids e
 Para decorar os comandos, lembre-se das iniciais maiúsculas que vão após o início da marcação.
 
 **gridcd**
-```
+~~~~~xml
 <Grid.ColumnDefinitions>
     <ColumnDefinition Width="0" />
 </Grid.ColumnDefinitions>
-```
+~~~~~
 
 **cold**
-```
+~~~~~xml
 <ColumnDefinition Width="0" />
-```
+~~~~~
 
 **gridc**
-```
+~~~~~xml
 <Grid Grid.Column="0" Margin="5">
 ...
 </Grid>
-```
+~~~~~
 
 **gridrd**
-```
+~~~~~xml
 <Grid.RowDefinitions>
     <RowDefinition Height="0" />
 </Grid.RowDefinitions>
-```
+~~~~~
 
 **rowd**
-```
+~~~~~xml
 <RowDefinition Height="0" />
-```
+~~~~~
 
 **gridr**
-```
+~~~~~xml
 <Grid Grid.Row="0" Margin="5">
 ...
 </Grid>
-```
+~~~~~
 
 **gridrc**
-```
+~~~~~xml
 <Grid Grid.Row="0" Grid.Column="0" Margin="5">
 ...
 </Grid>
-```
+~~~~~
 
 **gridcr**
-```
+~~~~~xml
 <Grid Grid.Column="0" Grid.Row="0" Margin="5">
 ...
 </Grid>
-```
+~~~~~
 
 ### Propriedades
 ------------------
@@ -128,63 +128,63 @@ Você também pode criar múltiplos `<Grid.ColumnDefinitions>` e  `<Grid.RowDefi
 *Para múltiplas colunas:*
 
 **2cold**
-```
+~~~~~xml
 <ColumnDefinition Width="0" />
 <ColumnDefinition Width="0" />
-```
+~~~~~
 
 **3cold**
-```
+~~~~~xml
 <ColumnDefinition Width="0" />
 <ColumnDefinition Width="0" />
 <ColumnDefinition Width="0" />
-```
+~~~~~
 
 **4cold**
-```
+~~~~~xml
 <ColumnDefinition Width="0" />
 <ColumnDefinition Width="0" />
 <ColumnDefinition Width="0" />
 <ColumnDefinition Width="0" />
-```
+~~~~~
 
 **5cold**
-```
+~~~~~xml
 <ColumnDefinition Width="0" />
 <ColumnDefinition Width="0" />
 <ColumnDefinition Width="0" />
 <ColumnDefinition Width="0" />
 <ColumnDefinition Width="0" />
-```
+~~~~~
 
 *Para múltiplas linhas:*
 
 **2rowd**
-```
+~~~~~xml
 <RowDefinition Height="0" />
 <RowDefinition Height="0" />
-```
+~~~~~
 
 **3rowd**
-```
+~~~~~xml
 <RowDefinition Height="0" />
 <RowDefinition Height="0" />
 <RowDefinition Height="0" />
-```
+~~~~~
 
 **4rowd**
-```
+~~~~~xml
 <RowDefinition Height="0" />
 <RowDefinition Height="0" />
 <RowDefinition Height="0" />
 <RowDefinition Height="0" />
-```
+~~~~~
 
 **5rowd**
-```
+~~~~~xml
 <RowDefinition Height="0" />
 <RowDefinition Height="0" />
 <RowDefinition Height="0" />
 <RowDefinition Height="0" />
 <RowDefinition Height="0" />
-```
+~~~~~
