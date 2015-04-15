@@ -17,7 +17,7 @@ Coleção de Snippets e métodos ágeis para melhor produtividade no desenvolvim
 Os comandos abaixo faciltam a construção de markdown para criação de grids e suas propriedades.
 Para decorar os comandos, lembre-se das iniciais maiúsculas que vão após o início da marcação.
 
-![alt tag](http://s17.postimg.org/8do9tod4v/estrutura_de_grids.gif)
+![alt tag](http://s28.postimg.org/oofm0d4bh/estruturabasica.gif)
 
 **gridcd**
 ~~~~~xml
@@ -75,7 +75,7 @@ Para decorar os comandos, lembre-se das iniciais maiúsculas que vão após o in
 ------------------
 Comandos para adicionar elementos básicos já preenchidos com linha e coluna, onde *element* pode ser um *Button, CheckBox, ComboBox, DatePicker, TimePicker, ListBox, PasswordBox, ProgressBar, RadioButton, StackPanel, StatusBar, TabControl, TextBlock, TabItem, TextBox, ToolBar, TreeView* ou *Label*.
 
-![alt tag](http://s7.postimg.org/5xmdavxiz/elementos.gif)
+![alt tag](http://s9.postimg.org/xkta58vv3/elementos.gif)
 
 **elementc**
 ```xml
@@ -101,7 +101,7 @@ Comandos para adicionar elementos básicos já preenchidos com linha e coluna, o
 ------------------
 Comandos para adicionar propriedades em uma marcação.
 
-![alt tag](http://s2.postimg.org/y9scv2eg9/propriedades.gif)
+![alt tag](http://s29.postimg.org/jrgsasr5z/propriedades.gif)
 
 **col**
 ```xml
@@ -127,7 +127,7 @@ Grid.Column="0" Grid.Row="0"
 ------------------
 Você também pode criar múltiplos `<Grid.ColumnDefinitions>` e  `<Grid.RowDefinitions>`
 
-![alt tag](http://s30.postimg.org/3l28rkjcx/multiplos.gif)
+![alt tag](http://s17.postimg.org/xdzewvm2n/multiplos.gif)
 
 *Para múltiplas colunas:*
 
