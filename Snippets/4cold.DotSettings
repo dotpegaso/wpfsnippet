@@ -1,0 +1,15 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=882219135162024C826AA87A178ADA47/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=882219135162024C826AA87A178ADA47/Shortcut/@EntryValue">4cold</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=882219135162024C826AA87A178ADA47/Text/@EntryValue">&lt;ColumnDefinition Width="$valor$" /&gt;&#xD;
+&lt;ColumnDefinition Width="$valor$" /&gt;&#xD;
+&lt;ColumnDefinition Width="$valor$" /&gt;&#xD;
+&lt;ColumnDefinition Width="$valor$" /&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=882219135162024C826AA87A178ADA47/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=882219135162024C826AA87A178ADA47/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=882219135162024C826AA87A178ADA47/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=882219135162024C826AA87A178ADA47/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=882219135162024C826AA87A178ADA47/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=882219135162024C826AA87A178ADA47/Field/=valor/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=882219135162024C826AA87A178ADA47/Field/=valor/Expression/@EntryValue">list("*,Auto")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=882219135162024C826AA87A178ADA47/Field/=valor/Order/@EntryValue">0</s:Int64></wpf:ResourceDictionary>

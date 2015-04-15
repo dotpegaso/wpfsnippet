@@ -1,0 +1,17 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D19B632F9919F04394CE63AC2FE5BCD3/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D19B632F9919F04394CE63AC2FE5BCD3/Shortcut/@EntryValue">gridrc</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D19B632F9919F04394CE63AC2FE5BCD3/Text/@EntryValue">&lt;Grid Grid.Row="$numero_da_linha$" Grid.Column="$numero_da_coluna$" Margin="5"&gt;&#xD;
+&lt;/Grid&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D19B632F9919F04394CE63AC2FE5BCD3/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D19B632F9919F04394CE63AC2FE5BCD3/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D19B632F9919F04394CE63AC2FE5BCD3/Categories/=Imported_002015_002F04_002F2015/@EntryIndexedValue">Imported 15/04/2015</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D19B632F9919F04394CE63AC2FE5BCD3/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D19B632F9919F04394CE63AC2FE5BCD3/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D19B632F9919F04394CE63AC2FE5BCD3/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D19B632F9919F04394CE63AC2FE5BCD3/Field/=numero_005Fda_005Fcoluna/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D19B632F9919F04394CE63AC2FE5BCD3/Field/=numero_005Fda_005Fcoluna/Expression/@EntryValue">list("0,1,2,3,4,5,6,7,8,9")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D19B632F9919F04394CE63AC2FE5BCD3/Field/=numero_005Fda_005Fcoluna/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D19B632F9919F04394CE63AC2FE5BCD3/Field/=numero_005Fda_005Flinha/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D19B632F9919F04394CE63AC2FE5BCD3/Field/=numero_005Fda_005Flinha/Expression/@EntryValue">list("0,1,2,3,4,5,6,7,8,9")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D19B632F9919F04394CE63AC2FE5BCD3/Field/=numero_005Fda_005Flinha/Order/@EntryValue">1</s:Int64></wpf:ResourceDictionary>

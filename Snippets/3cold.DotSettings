@@ -1,0 +1,14 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BC3B533F90041B4284BF733D8B74232D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BC3B533F90041B4284BF733D8B74232D/Shortcut/@EntryValue">3cold</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BC3B533F90041B4284BF733D8B74232D/Text/@EntryValue">&lt;ColumnDefinition Width="$valor$" /&gt;&#xD;
+&lt;ColumnDefinition Width="$valor$" /&gt;&#xD;
+&lt;ColumnDefinition Width="$valor$" /&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BC3B533F90041B4284BF733D8B74232D/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BC3B533F90041B4284BF733D8B74232D/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BC3B533F90041B4284BF733D8B74232D/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BC3B533F90041B4284BF733D8B74232D/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BC3B533F90041B4284BF733D8B74232D/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BC3B533F90041B4284BF733D8B74232D/Field/=valor/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BC3B533F90041B4284BF733D8B74232D/Field/=valor/Expression/@EntryValue">list("*,Auto")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BC3B533F90041B4284BF733D8B74232D/Field/=valor/Order/@EntryValue">0</s:Int64></wpf:ResourceDictionary>
