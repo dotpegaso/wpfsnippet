@@ -11,46 +11,8 @@ Coleção de Snippets e métodos ágeis para melhor produtividade no desenvolvim
 
 ![alt tag](http://s18.postimg.org/bf2bzy8op/example.gif)
 
-### Estrutura básica
-------------------
-- O comando **controls:** é equivalente à uma estrutura básica de nova janela, use-o sempre que criar um novo arquivo .xaml:
-~~~~~xml
-<controls:BdsElysiumWindow
-x:Class="NAMESPACE.View.**[NOME_DA_TELA]**"
-xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-xmlns:params="http://schemas.codeplex.com/elysium/params"
-xmlns:resources="clr-namespace:Bds.Bdsh.Excel.Vsto.Consult.Resources"
-xmlns:controls="clr-namespace:Bds.Bdsh.Excel.Vsto.Consult.Controls"
-xmlns:ff="clr-namespace:Bds.Bdsh.Excel.Vsto.Consult.FunctionalFun.UI"
-xmlns:extra="http://schemas.extra.com/ui"
-xmlns:metro="http://schemas.codeplex.com/elysium"
-xmlns:viewModel="clr-namespace:Bds.Bdsh.Excel.Vsto.Consult.ViewModel"
-xmlns:utils="clr-namespace:Bds.Bdsh.Excel.Vsto.Consult.Utils"
-xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
-mc:Ignorable="d"
-d:DesignHeight="600" d:DesignWidth="800"
-Height="600" Width="800"
-TitleBarBackground="#FF1F6F43"
-params:Design.AccentBrush="#FF1F6F43"
-TitleBarForeground="White"
-WindowStartupLocation="CenterOwner"
-WindowState="Normal"
-DataContext="{Binding RelativeSource={RelativeSource Self}, Path=ViewModel, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
-Title="{x:Static resources:Resource.**[NOME_DA_TELA]**_TitleBar}">
-<!--VOCÊ PODE ALTERAR O TAMANHO DA TELA ACIMA, NA PROPRIEDADE "Height="" Width=""-->
-<!--NÃO ESQUEÇA DE INSERIR O NOME DA SUA TELA NAS PROPRIEDADES x:Class="" & Title=""-->
 
-<Grid Margin="5">
-    <!--INICIE O CÓDIGO AQUI-->
-</Grid>
-
-</controls:BdsElysiumWindow>
-~~~~~
-
-### Estrutura de Grids
+### Estrutura Básica de Grids
 ------------------
 Os comandos abaixo faciltam a construção de markdown para criação de grids e suas propriedades.
 Para decorar os comandos, lembre-se das iniciais maiúsculas que vão após o início da marcação.
