@@ -1,13 +1,13 @@
 # wpfSnippet
 -----------------------------------
-Coleção de Snippets e métodos ágeis para melhor produtividade no desenvolvimento em Windows Presentation Foundation, através de Visual Studio + ReSharper
+Coleção de Snippets e métodos ágeis para melhor produtividade no desenvolvimento em Windows Presentation Foundation, através de Visual Studio + [ReSharper](https://www.jetbrains.com/resharper/download/). Digite o comando, aperte TAB e veja a mágica acontecer. :)
 
 ### Getting started
 ------------------
 
 - [Baixe](https://github.com/dotpegaso/wpfsnippet/archive/master.zip) o arquivo e entre na pasta *Snippets*
-- Abra o `Visual Studio` e em seu menu superior, navegue até `Resharper > Tools > Templates Explorer`
-- Em `Scopes` selecione `Global` e clique em `Import` e adicione os snippets ao seu *ReSharper*
+- Abra o `Visual Studio` e, em seu menu superior, navegue até `Resharper > Tools > Templates Explorer`
+- Em `Scopes` selecione `Global`, clique em `Import` e adicione os snippets ao seu ReSharper
 
 ![alt tag](http://s18.postimg.org/bf2bzy8op/example.gif)
 
@@ -99,7 +99,7 @@ Comandos para adicionar elementos básicos já preenchidos com linha e coluna, o
 
 ### Propriedades
 ------------------
-Comandos para adicionar propriedades em uma marcação.
+Comandos para adicionar propriedades em um elemento já definido.
 
 ![alt tag](http://s29.postimg.org/jrgsasr5z/propriedades.gif)
 
@@ -125,7 +125,7 @@ Grid.Column="0" Grid.Row="0"
 
 ### Múltiplos
 ------------------
-Você também pode criar múltiplos `<Grid.ColumnDefinitions>` e  `<Grid.RowDefinitions>`
+Você também pode criar múltiplos de `<Grid.ColumnDefinitions>` e  `<Grid.RowDefinitions>`
 
 ![alt tag](http://s17.postimg.org/xdzewvm2n/multiplos.gif)
 
