@@ -3,6 +3,7 @@
 Coleção de Snippets e métodos ágeis para melhor produtividade no desenvolvimento em Windows Presentation Foundation, através de Visual Studio + ReSharper
 
 ### Getting started
+-----------------------------------
 
 - [Baixe](https://github.com/dotpegaso/wpfsnippet/archive/master.zip) o arquivo e entre na pasta Snippets
 - Abra o `Visual Studio` e em seu menu superior, navegue até `Resharper > Tools > Templates Explorer`
@@ -10,10 +11,10 @@ Coleção de Snippets e métodos ágeis para melhor produtividade no desenvolvim
 
 ![alt tag](http://s18.postimg.org/bf2bzy8op/example.gif)
 
-#### Estrutura básica
+### Estrutura básica
 
 - O comando **controls:** é equivalente à uma estrutura básica de nova janela, use-o sempre que criar um novo arquivo .xaml:
-```
+~~~~~xml
 <controls:BdsElysiumWindow
 x:Class="NAMESPACE.View.**[NOME_DA_TELA]**"
 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -47,13 +48,12 @@ Title="{x:Static resources:Resource.**[NOME_DA_TELA]**_TitleBar}">
 </Grid>
 
 </controls:BdsElysiumWindow>
-```
+~~~~~
 
-
-#### Estrutura de Grids
+### Estrutura de Grids
+-----------------------------------
 Os comandos abaixo faciltam a construção de markdown para criação de grids e suas propriedades.
 Para decorar os comandos, lembre-se das iniciais maiúsculas que vão após o início da marcação.
-
 
 **gridcd**
 ```
@@ -67,15 +67,12 @@ Para decorar os comandos, lembre-se das iniciais maiúsculas que vão após o in
 <ColumnDefinition Width="0" />
 ```
 
-
-
 **gridc**
 ```
 <Grid Grid.Column="0" Margin="5">
+...
 </Grid>
 ```
-
-
 
 **gridrd**
 ```
@@ -84,55 +81,47 @@ Para decorar os comandos, lembre-se das iniciais maiúsculas que vão após o in
 </Grid.RowDefinitions>
 ```
 
-
-
 **rowd**
 ```
 <RowDefinition Height="0" />
 ```
 
-
-
 **gridr**
 ```
 <Grid Grid.Row="0" Margin="5">
+...
 </Grid>
 ```
-
-
 
 **gridrc**
 ```
 <Grid Grid.Row="0" Grid.Column="0" Margin="5">
+...
 </Grid>
 ```
-
-
 
 **gridcr**
 ```
 <Grid Grid.Column="0" Grid.Row="0" Margin="5">
+...
 </Grid>
 ```
 
-
-
-#### Propriedades 
+### Propriedades
+-----------------------------------
 Comandos para adicionar propriedades em uma marcação.
 Exemplo: *<Label row+TAB />* se transforma em *<Label Grid.Row="0"/>*
-
 
 **col** > `Grid.Column="0"`
 
 **row** > `Grid.Row="0"`
 
-**rowcol** >  `Grid.Row="0" Grid.Column="0"`
+**rowcol** >  `Grid.Column="0" Grid.Row="0"`
 
 **colrow** > `Grid.Column="0" Grid.Row="0"`
 
-
-
-#### Múltiplos
+### Múltiplos
+-----------------------------------
 Você também pode criar múltiplos `<Grid.ColumnDefinitions>` e  `<Grid.RowDefinitions>`
 
 - Para múltiplas colunas:
