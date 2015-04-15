@@ -10,9 +10,9 @@ Coleção de Snippets e métodos ágeis para melhor produtividade no desenvolvim
 
 ![alt tag](http://s18.postimg.org/bf2bzy8op/example.gif)
 
-### Estrutura básica
+#### Estrutura básica
 
-- O comando **controls:** é equivalente à uma estrutura básica de nova janela, o sempre que criar um novo arquivo .xaml:
+- O comando **controls:** é equivalente à uma estrutura básica de nova janela, use-o sempre que criar um novo arquivo .xaml:
 ```
 <controls:BdsElysiumWindow
 x:Class="NAMESPACE.View.**[NOME_DA_TELA]**"
@@ -49,144 +49,152 @@ Title="{x:Static resources:Resource.**[NOME_DA_TELA]**_TitleBar}">
 </controls:BdsElysiumWindow>
 ```
 
-### Estrutura de Grids
+
+#### Estrutura de Grids
 Os comandos abaixo faciltam a construção de markdown para criação de grids e suas propriedades.
 Para decorar os comandos, lembre-se das iniciais maiúsculas que vão após o início da marcação.
-Exemplo: `<**Grid**.**R**ow**D**efinitions>` => `grid**rd**`
 
 
-- **gridcd** =
+**gridcd**
 ```
 <Grid.ColumnDefinitions>
     <ColumnDefinition Width="0" />
 </Grid.ColumnDefinitions>
 ```
 
-- **cold** =
+**cold**
 ```
 <ColumnDefinition Width="0" />
 ```
 
-- **gridc** =
+
+
+**gridc**
 ```
 <Grid Grid.Column="0" Margin="5">
 </Grid>
 ```
 
-- **gridrd** =
+
+
+**gridrd**
 ```
 <Grid.RowDefinitions>
     <RowDefinition Height="0" />
 </Grid.RowDefinitions>
 ```
 
-- **rowd** =
+
+
+**rowd**
 ```
 <RowDefinition Height="0" />
 ```
 
-- **gridr** =
+
+
+**gridr**
 ```
 <Grid Grid.Row="0" Margin="5">
 </Grid>
 ```
 
-- **gridrc** =
+
+
+**gridrc**
 ```
 <Grid Grid.Row="0" Grid.Column="0" Margin="5">
 </Grid>
 ```
 
-- **gridcr** =
+
+
+**gridcr**
 ```
 <Grid Grid.Column="0" Grid.Row="0" Margin="5">
 </Grid>
 ```
 
-### Propriedades estes comandos para adicionar propriedades em um componente
-
-  - **col** =
-        `Grid.Column="0"`
-
-Exemplo
-    
-    `<Label />` > `<Label col+**TAB** /> **=>** `<Label Grid.Column="0"/>` 
 
 
-  - **row** =
-        `Grid.Row="0"`
-
-Exemplo
-    
-    `<Label />` > `<Label row+**TAB** /> **=>** `<Label Grid.Row="0"/>`
+#### Propriedades 
+Comandos para adicionar propriedades em uma marcação.
+Exemplo: *<Label row+TAB />* se transforma em *<Label Grid.Row="0"/>*
 
 
-  - **rowcol** =
-        `Grid.Column="0"`
+**col** > `Grid.Column="0"`
 
-Exemplo
-    
-    `<Label />` > `<Label rowcol+**TAB** /> **=>** `<Label Grid.Row="0" Grid.Column="0"/>`
+**row** > `Grid.Row="0"`
 
+**rowcol** >  `Grid.Row="0" Grid.Column="0"`
 
-  - **colrow** =
-        `Grid.Column="0"`
-
-Exemplo
-    
-    `<Label />` > `<Label colrow+**TAB** /> **=>** `<Label Grid.Column="0" Grid.Row="0"/>`
+**colrow** > `Grid.Column="0" Grid.Row="0"`
 
 
-### Múltiplos
 
+#### Múltiplos
 Você também pode criar múltiplos `<Grid.ColumnDefinitions>` e  `<Grid.RowDefinitions>`
 
-Para múltiplas colunas:
+- Para múltiplas colunas:
 
-- **2cold** para:
-  ```
+**2cold**
+```
 <ColumnDefinition Width="0" />
 <ColumnDefinition Width="0" />
-  ```
+```
 
-  - **3cold** para:
-        <ColumnDefinition Width="0" />
-        <ColumnDefinition Width="0" />
-        <ColumnDefinition Width="0" />
+**3cold**
+```
+<ColumnDefinition Width="0" />
+<ColumnDefinition Width="0" />
+<ColumnDefinition Width="0" />
+```
 
-  - **4cold** para:
-        <ColumnDefinition Width="0" />
-        <ColumnDefinition Width="0" />
-        <ColumnDefinition Width="0" />
-        <ColumnDefinition Width="0" />
+**4cold**
+```
+<ColumnDefinition Width="0" />
+<ColumnDefinition Width="0" />
+<ColumnDefinition Width="0" />
+<ColumnDefinition Width="0" />
+```
 
-  - **5cold** para:
-        <ColumnDefinition Width="0" />
-        <ColumnDefinition Width="0" />
-        <ColumnDefinition Width="0" />
-        <ColumnDefinition Width="0" />
-        <ColumnDefinition Width="0" />
+**5cold**
+```
+<ColumnDefinition Width="0" />
+<ColumnDefinition Width="0" />
+<ColumnDefinition Width="0" />
+<ColumnDefinition Width="0" />
+<ColumnDefinition Width="0" />
+```
 
-Para múltiplas linhas:
+- Para múltiplas linhas:
 
-  - **2rowd** para:
-        <RowDefinition Height="0" />
-        <RowDefinition Height="0" />
+**2rowd**
+```
+<RowDefinition Height="0" />
+<RowDefinition Height="0" />
+```
 
-  - **3rowd** para:
-        <RowDefinition Height="0" />
-        <RowDefinition Height="0" />
-        <RowDefinition Height="0" />
+**3rowd**
+```
+<RowDefinition Height="0" />
+<RowDefinition Height="0" />
+<RowDefinition Height="0" />
+```
 
-  - **4rowd** para:
-        <RowDefinition Height="0" />
-        <RowDefinition Height="0" />
-        <RowDefinition Height="0" />
-        <RowDefinition Height="0" />
+**4rowd**
+```
+<RowDefinition Height="0" />
+<RowDefinition Height="0" />
+<RowDefinition Height="0" />
+<RowDefinition Height="0" />
+```
 
-  - **5rowd** para:
-        <RowDefinition Height="0" />
-        <RowDefinition Height="0" />
-        <RowDefinition Height="0" />
-        <RowDefinition Height="0" />
-        <RowDefinition Height="0" />
+**5rowd**
+```
+<RowDefinition Height="0" />
+<RowDefinition Height="0" />
+<RowDefinition Height="0" />
+<RowDefinition Height="0" />
+<RowDefinition Height="0" />
+```
