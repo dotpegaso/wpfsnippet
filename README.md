@@ -111,29 +111,59 @@ Para decorar os comandos, lembre-se das iniciais maiúsculas que vão após o in
 ------------------
 Comandos para adicionar elementos básicos já preenchidos com linha e coluna
 
-Exemplo: `elementr+TAB` se transforma em ` <Button Grid.Row="0" />
+Exemplo: `elementr+TAB` se transforma em
+```xml
+<Button Grid.Row="0" />
+```
 
-**elementc** > ~xml<Button Grid.Column="0" />~
+**elementc**
+```xml
+<Button Grid.Column="0" />
+```
 
-**elementr** > ~xml<Button Grid.Row="0" />~
+**elementr**
+```xml
+<Button Grid.Row="0" />
+```
 
-**elementcr** > ~xml<Button Grid.Column="0" Grid.Row="0" />~
+**elementcr**
+```xml
+<Button Grid.Column="0" Grid.Row="0" />
+```
 
-**elementrc** > ~xml<Button Grid.Row="0" Grid.Column="0" />~
+**elementrc**
+```xml
+<Button Grid.Row="0" Grid.Column="0" />
+```
 
 ### Propriedades
 ------------------
 Comandos para adicionar propriedades em uma marcação.
 
-Exemplo: `<Label row+TAB />` se transforma em ~xml<Label Grid.Row="0"/>~
+Exemplo: `<Label row+TAB />` se transforma em:
+```xml
+<Label Grid.Row="0"/>
+```
 
-**col** > `Grid.Column="0"`
+**col**
+```xml
+Grid.Column="0"
+```
 
-**row** > `Grid.Row="0"`
+**row**
+```xml
+Grid.Row="0"
+```
 
-**rowcol** >  `Grid.Column="0" Grid.Row="0"`
+**rowcol**
+```xml
+Grid.Column="0" Grid.Row="0"
+```
 
-**colrow** > `Grid.Column="0" Grid.Row="0"`
+**colrow**
+```xml
+Grid.Column="0" Grid.Row="0"
+```
 
 ### Múltiplos
 ------------------
