@@ -1,0 +1,15 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0CEDB30CABF1B2418B8F6D9582FBBE14/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0CEDB30CABF1B2418B8F6D9582FBBE14/Shortcut/@EntryValue">elementr</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0CEDB30CABF1B2418B8F6D9582FBBE14/Text/@EntryValue">&lt;$elemento$ Grid.Row="$valor1$" /&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0CEDB30CABF1B2418B8F6D9582FBBE14/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0CEDB30CABF1B2418B8F6D9582FBBE14/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0CEDB30CABF1B2418B8F6D9582FBBE14/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0CEDB30CABF1B2418B8F6D9582FBBE14/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0CEDB30CABF1B2418B8F6D9582FBBE14/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0CEDB30CABF1B2418B8F6D9582FBBE14/Field/=elemento/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0CEDB30CABF1B2418B8F6D9582FBBE14/Field/=elemento/Expression/@EntryValue">list("Button,CheckBox,ComboBox,DatePicker,TimePicker,ListBox,PasswordBox,ProgressBar,RadioButton,StackPanel,StatusBar,TabControl,TextBlock,TabItem,TextBox,ToolBar,TreeView,Label")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0CEDB30CABF1B2418B8F6D9582FBBE14/Field/=elemento/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0CEDB30CABF1B2418B8F6D9582FBBE14/Field/=valor1/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0CEDB30CABF1B2418B8F6D9582FBBE14/Field/=valor1/Expression/@EntryValue">list("0,1,2,3,4,5,6,7,8,9")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0CEDB30CABF1B2418B8F6D9582FBBE14/Field/=valor1/Order/@EntryValue">1</s:Int64></wpf:ResourceDictionary>
