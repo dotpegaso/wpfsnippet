@@ -95,7 +95,7 @@ Para decorar os comandos, lembre-se das iniciais maiúsculas que vão após o in
 
 ### Elementos
 ------------------
-Comandos para adicionar elementos básicos já preenchidos com linha e coluna, onde *element* pode ser um *Button, CheckBox, ComboBox, DatePicker, TimePicker, ListBox, PasswordBox, ProgressBar, RadioButton, StackPanel, StatusBar, TabControl, TextBlock, TabItem, TextBox, ToolBar, TreeView* ou *Label*.
+Comandos para adicionar elementos básicos já preenchidos com linha e coluna, onde *element* pode ser um *Button, CheckBox, ComboBox, DatePicker, TimePicker, ListBox, PasswordBox, ProgressBar, RadioButton, StackPanel, StatusBar, TabControl, TextBlock, TabItem, TextBox, ToolBar, TreeView, Groupbox* ou *Label*.
 
 ![alt tag](http://s9.postimg.org/xkta58vv3/elementos.gif)
 
@@ -220,3 +220,14 @@ Você também pode criar múltiplos de `<Grid.ColumnDefinitions>` e  `<Grid.RowD
 <RowDefinition Height="Auto" />
 <RowDefinition Height="Auto" />
 ~~~~~
+
+### Changelog
+------------------
+*Apenas os cinco últimos*
+
+2.1 - Adicionado "content"
+2.0 - Adicionado "grid"
+1.9 - Remoção de "controls"
+1.8 - Adicionado "element"
+1.7 - Adicionado Múltiplos
+...
