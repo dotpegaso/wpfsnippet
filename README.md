@@ -170,7 +170,8 @@ Content="{x:Static resources:Resource.SMART_COMPLETION}"
 
 **hasbook**
 ```xml
-Visibility="{Binding SMART_COMPLETION[1].SMART_COMPLETION[2].HasBook, Converter={StaticResource BollToVisibilityConverter}}"
+Visibility="{Binding SMART_COMPLETION[1].SMART_COMPLETION[2].HasBook,  
+                Converter={StaticResource BollToVisibilityConverter}}"
 ```
 
 
