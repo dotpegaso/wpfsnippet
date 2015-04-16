@@ -22,13 +22,13 @@ Para decorar os comandos, lembre-se das iniciais maiúsculas que vão após o in
 **gridcd**
 ~~~~~xml
 <Grid.ColumnDefinitions>
-    <ColumnDefinition Width="0" />
+    <ColumnDefinition Width="Auto" />
 </Grid.ColumnDefinitions>
 ~~~~~
 
 **cold**
 ~~~~~xml
-<ColumnDefinition Width="0" />
+<ColumnDefinition Width="Auto" />
 ~~~~~
 
 **gridc**
@@ -41,13 +41,13 @@ Para decorar os comandos, lembre-se das iniciais maiúsculas que vão após o in
 **gridrd**
 ~~~~~xml
 <Grid.RowDefinitions>
-    <RowDefinition Height="0" />
+    <RowDefinition Height="Auto" />
 </Grid.RowDefinitions>
 ~~~~~
 
 **rowd**
 ~~~~~xml
-<RowDefinition Height="0" />
+<RowDefinition Height="Auto" />
 ~~~~~
 
 **gridr**
@@ -133,62 +133,62 @@ Você também pode criar múltiplos de `<Grid.ColumnDefinitions>` e  `<Grid.RowD
 
 **2cold**
 ~~~~~xml
-<ColumnDefinition Width="0" />
-<ColumnDefinition Width="0" />
+<ColumnDefinition Width="Auto" />
+<ColumnDefinition Width="Auto" />
 ~~~~~
 
 **3cold**
 ~~~~~xml
-<ColumnDefinition Width="0" />
-<ColumnDefinition Width="0" />
-<ColumnDefinition Width="0" />
+<ColumnDefinition Width="Auto" />
+<ColumnDefinition Width="Auto" />
+<ColumnDefinition Width="Auto" />
 ~~~~~
 
 **4cold**
 ~~~~~xml
-<ColumnDefinition Width="0" />
-<ColumnDefinition Width="0" />
-<ColumnDefinition Width="0" />
-<ColumnDefinition Width="0" />
+<ColumnDefinition Width="Auto" />
+<ColumnDefinition Width="Auto" />
+<ColumnDefinition Width="Auto" />
+<ColumnDefinition Width="Auto" />
 ~~~~~
 
 **5cold**
 ~~~~~xml
-<ColumnDefinition Width="0" />
-<ColumnDefinition Width="0" />
-<ColumnDefinition Width="0" />
-<ColumnDefinition Width="0" />
-<ColumnDefinition Width="0" />
+<ColumnDefinition Width="Auto" />
+<ColumnDefinition Width="Auto" />
+<ColumnDefinition Width="Auto" />
+<ColumnDefinition Width="Auto" />
+<ColumnDefinition Width="Auto" />
 ~~~~~
 
 *Para múltiplas linhas:*
 
 **2rowd**
 ~~~~~xml
-<RowDefinition Height="0" />
-<RowDefinition Height="0" />
+<RowDefinition Height="Auto" />
+<RowDefinition Height="Auto" />
 ~~~~~
 
 **3rowd**
 ~~~~~xml
-<RowDefinition Height="0" />
-<RowDefinition Height="0" />
-<RowDefinition Height="0" />
+<RowDefinition Height="Auto" />
+<RowDefinition Height="Auto" />
+<RowDefinition Height="Auto" />
 ~~~~~
 
 **4rowd**
 ~~~~~xml
-<RowDefinition Height="0" />
-<RowDefinition Height="0" />
-<RowDefinition Height="0" />
-<RowDefinition Height="0" />
+<RowDefinition Height="Auto" />
+<RowDefinition Height="Auto" />
+<RowDefinition Height="Auto" />
+<RowDefinition Height="Auto" />
 ~~~~~
 
 **5rowd**
 ~~~~~xml
-<RowDefinition Height="0" />
-<RowDefinition Height="0" />
-<RowDefinition Height="0" />
-<RowDefinition Height="0" />
-<RowDefinition Height="0" />
+<RowDefinition Height="Auto" />
+<RowDefinition Height="Auto" />
+<RowDefinition Height="Auto" />
+<RowDefinition Height="Auto" />
+<RowDefinition Height="Auto" />
 ~~~~~
