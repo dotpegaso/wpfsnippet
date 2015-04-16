@@ -1,6 +1,7 @@
 # wpfSnippet
 -----------------------------------
-Coleção de Snippets e métodos ágeis para melhor produtividade no desenvolvimento em Windows Presentation Foundation, através de Visual Studio + [ReSharper](https://www.jetbrains.com/resharper/download/). Digite o comando, aperte TAB e veja a mágica acontecer. :rocket:
+Coleção de Snippets e métodos ágeis para melhor produtividade no desenvolvimento em Windows Presentation Foundation, através de Visual Studio + [ReSharper](https://www.jetbrains.com/resharper/download/).  
+Digite o comando, aperte TAB e veja a mágica acontecer. :rocket:
 
 ### Getting Started
 ------------------
@@ -249,7 +250,7 @@ Você também pode criar múltiplos de `<Grid.ColumnDefinitions>` e  `<Grid.RowD
 ------------------
 *Apenas os cinco últimos*
 
-**2.2** - Adicionado "cbtemplate, lbtemplate e hasbook"
+**2.2** - Adicionado "cbtemplate, lbtemplate e hasbook"  
 **2.1** - Adicionado "content"  
 **2.0** - Adicionado "grid"  
 **1.9** - Remoção de "controls"  
