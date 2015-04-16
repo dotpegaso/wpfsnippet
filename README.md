@@ -145,6 +145,12 @@ Grid.Column="0" Grid.Row="0"
 Grid.Column="0" Grid.Row="0"
 ```
 
+**content**
+```xml
+Content="{x:Static resources:Resource.SMARTCOMPLETE}"
+```
+
+
 ### Múltiplos
 ------------------
 Você também pode criar múltiplos de `<Grid.ColumnDefinitions>` e  `<Grid.RowDefinitions>`
