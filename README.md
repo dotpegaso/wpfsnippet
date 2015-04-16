@@ -1,6 +1,7 @@
 # wpfSnippet
 -----------------------------------
 Coleção de Snippets e métodos ágeis para melhor produtividade no desenvolvimento em Windows Presentation Foundation, através de Visual Studio + [ReSharper](https://www.jetbrains.com/resharper/download/). 
+
 Digite o comando, aperte TAB e veja a mágica acontecer. :rocket:
 
 ### Getting Started
