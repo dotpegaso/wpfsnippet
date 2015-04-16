@@ -1,0 +1,16 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F05EA5A0F15E1F41912DD38D645C1BC7/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F05EA5A0F15E1F41912DD38D645C1BC7/Shortcut/@EntryValue">lbtemplate</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F05EA5A0F15E1F41912DD38D645C1BC7/Text/@EntryValue">&lt;ListBox.ItemTemplate&gt;&#xD;
+	&lt;DataTemplate&gt;&#xD;
+		&lt;TextBlock Text="{Binding $valor$}" /&gt;&#xD;
+	&lt;/DataTemplate&gt;&#xD;
+&lt;/ListBox.ItemTemplate&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F05EA5A0F15E1F41912DD38D645C1BC7/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F05EA5A0F15E1F41912DD38D645C1BC7/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F05EA5A0F15E1F41912DD38D645C1BC7/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F05EA5A0F15E1F41912DD38D645C1BC7/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F05EA5A0F15E1F41912DD38D645C1BC7/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F05EA5A0F15E1F41912DD38D645C1BC7/Field/=valor/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F05EA5A0F15E1F41912DD38D645C1BC7/Field/=valor/Expression/@EntryValue">completeSmart()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F05EA5A0F15E1F41912DD38D645C1BC7/Field/=valor/Order/@EntryValue">0</s:Int64></wpf:ResourceDictionary>

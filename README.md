@@ -147,7 +147,30 @@ Grid.Column="0" Grid.Row="0"
 
 **content**
 ```xml
-Content="{x:Static resources:Resource.SMARTCOMPLETE}"
+Content="{x:Static resources:Resource.SMART_COMPLETION}"
+```
+
+**cbtemplate**
+```xml
+<ComboBox.ItemTemplate>
+    <DataTemplate>
+        <TextBlock Text="{Binding SMART_COMPLETION}" />
+    </DataTemplate>
+</ComboBox.ItemTemplate>
+```
+
+**lbtemplate**
+```xml
+<ListBox.ItemTemplate>
+    <DataTemplate>
+        <TextBlock Text="{Binding SMART_COMPLETION}" />
+    </DataTemplate>
+</ListBox.ItemTemplate>
+```
+
+**hasbook**
+```xml
+Visibility="{Binding SMART_COMPLETION[1].SMART_COMPLETION[2].HasBook, Converter={StaticResource BollToVisibilityConverter}}"
 ```
 
 
@@ -225,9 +248,9 @@ Você também pode criar múltiplos de `<Grid.ColumnDefinitions>` e  `<Grid.RowD
 ------------------
 *Apenas os cinco últimos*
 
-2.1 - Adicionado "content"  
-2.0 - Adicionado "grid"  
-1.9 - Remoção de "controls"  
-1.8 - Adicionado "element"  
-1.7 - Adicionado Múltiplos  
+**2.2** - Adicionado "cbtemplate, lbtemplate e hasbook"
+**2.1** - Adicionado "content"  
+**2.0** - Adicionado "grid"  
+**1.9** - Remoção de "controls"  
+**1.8** - Adicionado "element"   
 ...  
