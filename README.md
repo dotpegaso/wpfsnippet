@@ -2,7 +2,7 @@
 -----------------------------------
 Coleção de Snippets e métodos ágeis para melhor produtividade no desenvolvimento em Windows Presentation Foundation, através de Visual Studio + [ReSharper](https://www.jetbrains.com/resharper/download/). Digite o comando, aperte TAB e veja a mágica acontecer. :)
 
-### Getting started
+### Getting Started
 ------------------
 
 - [Baixe](https://github.com/dotpegaso/wpfsnippet/archive/master.zip) o arquivo e entre na pasta *Snippets*
@@ -18,6 +18,28 @@ Os comandos abaixo faciltam a construção de markdown para criação de grids e
 Para decorar os comandos, lembre-se das iniciais maiúsculas que vão após o início da marcação.
 
 ![alt tag](http://s28.postimg.org/oofm0d4bh/estruturabasica.gif)
+
+**grid**
+~~~~~xml
+<Grid Margin="5">
+
+	<!-- Quantidade de colunas -->
+	<Grid.ColumnDefinitions>
+		<ColumnDefinition Width="Auto" />
+		...
+	</Grid.ColumnDefinitions>
+
+	<!-- Quantidade de linhas -->
+	<Grid.RowDefinitions>
+		<RowDefinition Height="Auto" />
+		...
+	</Grid.RowDefinitions>
+
+	<!-- Código -->
+	...
+
+</Grid>
+~~~~~
 
 **gridcd**
 ~~~~~xml

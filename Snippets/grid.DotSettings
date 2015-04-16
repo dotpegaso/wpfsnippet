@@ -1,0 +1,30 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C446E11C3E50A34D92862D84948DC39B/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C446E11C3E50A34D92862D84948DC39B/Shortcut/@EntryValue">grid</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C446E11C3E50A34D92862D84948DC39B/Text/@EntryValue">&lt;Grid Margin="5"&gt;&#xD;
+&#xD;
+	&lt;!--Quantidade de colunas--&gt;&#xD;
+	&lt;Grid.ColumnDefinitions&gt;&#xD;
+		&lt;ColumnDefinition Width="$valor1$" /&gt;&#xD;
+		&#xD;
+	&lt;/Grid.ColumnDefinitions&gt;&#xD;
+&#xD;
+	&lt;!--Quantidade de linhas--&gt;&#xD;
+	&lt;Grid.RowDefinitions&gt;&#xD;
+		&lt;RowDefinition Height="$valor2$" /&gt;		&#xD;
+	&lt;/Grid.RowDefinitions&gt;&#xD;
+&#xD;
+	&lt;!--Código--&gt;&#xD;
+&#xD;
+&lt;/Grid&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C446E11C3E50A34D92862D84948DC39B/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C446E11C3E50A34D92862D84948DC39B/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C446E11C3E50A34D92862D84948DC39B/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C446E11C3E50A34D92862D84948DC39B/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C446E11C3E50A34D92862D84948DC39B/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C446E11C3E50A34D92862D84948DC39B/Field/=valor1/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C446E11C3E50A34D92862D84948DC39B/Field/=valor1/Expression/@EntryValue">list("*,Auto")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C446E11C3E50A34D92862D84948DC39B/Field/=valor1/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C446E11C3E50A34D92862D84948DC39B/Field/=valor2/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C446E11C3E50A34D92862D84948DC39B/Field/=valor2/Expression/@EntryValue">list("*,Auto")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C446E11C3E50A34D92862D84948DC39B/Field/=valor2/Order/@EntryValue">1</s:Int64></wpf:ResourceDictionary>
