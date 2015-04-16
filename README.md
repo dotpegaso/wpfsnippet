@@ -225,9 +225,9 @@ Você também pode criar múltiplos de `<Grid.ColumnDefinitions>` e  `<Grid.RowD
 ------------------
 *Apenas os cinco últimos*
 
-2.1 - Adicionado "content"
-2.0 - Adicionado "grid"
-1.9 - Remoção de "controls"
-1.8 - Adicionado "element"
-1.7 - Adicionado Múltiplos
-...
+2.1 - Adicionado "content"  
+2.0 - Adicionado "grid"  
+1.9 - Remoção de "controls"  
+1.8 - Adicionado "element"  
+1.7 - Adicionado Múltiplos  
+...  
